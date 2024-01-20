@@ -1,20 +1,39 @@
 {
-  "name": "nightshade-dark",
-  "displayName": "Nightshade Dark",
-  "description": "A dark theme!",
-  "version": "0.0.1",
+  "name": "nightshade",
+  "displayName": "Nightshade",
+  "description": "A green-forward dark theme for VS Code",
+  "version": "0.1.0",
+  "publisher": "SirCheese",
+  "icon": "profile-150px.jpg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirCheese616/nightshade-theme-vscode"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "green",
+    "green theme",
+    "dark green theme",
+    "cottagecore",
+    "cottage core",
+    "sir cheese",
+    "sircheese",
+    "nightshade",
+    "night shade"
+  ],
   "categories": [
     "Themes"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Nightshade Dark",
+        "label": "Nightshade",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nightshade Dark-color-theme.json"
+        "path": "./themes/Nightshade-color-theme.json"
       }
     ]
   }
