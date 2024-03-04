@@ -2,9 +2,9 @@
   "name": "nightshade",
   "displayName": "Nightshade",
   "description": "A relaxing, green-forward dark theme",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "SirCheese",
-  "icon": "profile-150px.jpg",
+  "icon": "profile-150px.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/SirCheese616/nightshade-theme-vscode"
