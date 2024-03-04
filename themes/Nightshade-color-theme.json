@@ -834,7 +834,7 @@
 			"settings": {
 				"foreground": "#61C2BB"
 			}
-		}
+		},
 		{
 			"scope": "entity.name.type.class.cs",
 			"settings": {
