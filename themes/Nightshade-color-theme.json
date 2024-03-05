@@ -238,11 +238,13 @@
 		},
 		{
 		  "scope": [
+			"punctuation.section.property-list.begin.bracket.curly.css",
+			"punctuation.section.property-list.end.bracket.curly.css",
 			"punctuation.definition.interpolation.end.bracket.curly.scss",
 			"punctuation.definition.interpolation.begin.bracket.curly.scss"
 		  ],
 		  "settings": {
-			"foreground": "#D26859"
+			"foreground": "#61C2BB"
 		  }
 		},
 		{
@@ -300,10 +302,11 @@
 		  "scope": [
 			"punctuation.definition.tag.begin.html",
 			"punctuation.definition.tag.end.html",
+			"punctuation.separator.key-value.html",
 			"entity.name.type.module.js"
 		  ],
 		  "settings": {
-			"foreground": "#E89848"
+			"foreground": "#9385D9"
 		  }
 		},
 		{
@@ -362,7 +365,7 @@
 			"punctuation.definition.comment.cs"
 		  ],
 		  "settings": {
-			"foreground": "#A1C181",
+			"foreground": "#648181",
 			"fontStyle": "italic"
 		  }
 		},
@@ -385,14 +388,14 @@
 		  }
 		},
 		{
-		  "scope": [
-			"entity.name.tag.html"
-		  ],
-		  "settings": {
-			"foreground": "#61C2BB",
-			"fontStyle": "bold"
-		  }
-		},
+			"scope": [
+			  "entity.name.tag.html"
+			],
+			"settings": {
+			  "foreground": "#7160C4", 
+			  "fontStyle": "bold"
+			}
+		  },
 		{
 		  "scope": [
 			"variable.parameter.js",
@@ -411,7 +414,7 @@
 			"variable.other.property.js"
 		  ],
 		  "settings": {
-			"foreground": "#346B5E",
+			"foreground": "#A1C181",
 			"fontStyle": ""
 		  }
 		},
@@ -437,7 +440,7 @@
 			"source.sass keyword.control"
 		  ],
 		  "settings": {
-			"foreground": "#5E9C85"
+			"foreground": "#E89848"
 		  }
 		},
 		{
@@ -446,7 +449,7 @@
 			"punctuation.definition.string.end.html"
 		  ],
 		  "settings": {
-			"foreground": "#ADE2C7"
+			"foreground": "#FF8473"
 		  }
 		},
 		{
@@ -466,8 +469,7 @@
 			"constant.character",
 			"constant.escape",
 			"keyword.other.unit",
-			"keyword.other",
-			"punctuation.separator.key-value.html"
+			"keyword.other"
 		  ],
 		  "settings": {
 			"foreground": "#E89848"
@@ -568,10 +570,7 @@
 		},
 		{
 		  "scope": [
-			"entity.other.attribute-name.id",
-			"entity.other.attribute-name.class",
 			"entity.other.attribute-name.pseudo-class",
-			"entity.name.tag.css",
 			"keyword.control.conditional.js",
 			"support.constant",
 			"entity.other.attribute-name.html",
@@ -580,17 +579,34 @@
 			"meta.object-literal.key"
 		  ],
 		  "settings": {
-			"foreground": "#D2503E"
+			"foreground": "#5E9C85"
 		  }
 		},
 		{
 		  "scope": [
+			"entity.name.tag.css",
 			"source.css keyword.control",
 			"source.scss keyword.control"
 		  ],
 		  "settings": {
-			"foreground": "#E89848"
+			"foreground": "#D2503E"
 		  }
+		},
+		{
+			"scope": [
+			  "entity.other.attribute-name.id"
+			],
+			"settings": {
+			  "foreground": "#E89848"
+			}
+		},
+		{
+			"scope": [
+			  "entity.other.attribute-name.class"
+			],
+			"settings": {
+			  "foreground": "#A1C181"
+			}
 		},
 		{
 		  "scope": [
@@ -811,10 +827,14 @@
 		  }
 		},
 
+
+
+
+
 		{
 			"scope": "entity.other.jinja.delimiter.tag",
 			"settings": {
-				"foreground": "#9A4573"
+				"foreground": "#D2503E"
 			}
 		}, 
 		{
@@ -840,7 +860,233 @@
 			"settings": {
 				"foreground": "#61C2BB"
 			}
-		}
-		
+		},
+
+
+
+
+
+		{
+			"scope": [
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.doctype.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.html.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.html.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.html.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.html.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.end.html",
+			],
+			"settings": {
+			  "foreground": "#9385D9",
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.metadata.doctype.html entity.name.tag.html",
+				"meta.tag.structure.html.start.html entity.name.tag.html",
+				"meta.tag.structure.html.end.html entity.name.tag.html",
+			],
+			"settings": {
+			  "foreground": "#6E4CCC",
+			  "fontStyle": "bold"
+			}
+		}, 
+		{	
+			"scope": [
+				"meta.tag.structure.head.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.head.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.head.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.head.end.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.title.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.title.start.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.title.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.title.end.html punctuation.definition.tag.end.html",
+			],
+			"settings": {
+			  "foreground": "#FF8473", 
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.head.start.html entity.name.tag.html", 
+				"meta.tag.structure.head.end.html entity.name.tag.html",
+				"meta.tag.metadata.title.start.html entity.name.tag.html",
+				"meta.tag.metadata.title.end.html entity.name.tag.html",
+				"meta.tag.structure.body.start.html entity.name.tag.html",
+				"meta.tag.structure.body.end.html entity.name.tag.html",
+			],
+			"settings": {
+				"foreground": "#D2503E" 
+			},
+		},
+		{
+			"scope": [
+				"meta.tag.structure.body.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.body.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.body.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.body.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.header.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.header.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.header.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.header.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.nav.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.nav.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.nav.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.nav.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.section.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.section.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.section.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.section.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.article.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.article.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.article.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.article.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.footer.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.footer.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.footer.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.footer.end.html punctuation.definition.tag.end.html"
+
+			],
+			"settings": {
+			  "foreground": "#FF8473",
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.body.start.html entity.name.tag.html",
+				"meta.tag.structure.body.end.html entity.name.tag.html",
+				"meta.tag.structure.header.start.html entity.name.tag.html",
+				"meta.tag.structure.header.end.html entity.name.tag.html",
+				"meta.tag.structure.nav.start.html entity.name.tag.html",
+				"meta.tag.structure.nav.end.html entity.name.tag.html",
+				"meta.tag.structure.section.start.html entity.name.tag.html",
+				"meta.tag.structure.section.end.html entity.name.tag.html",
+				"meta.tag.structure.article.start.html entity.name.tag.html",
+				"meta.tag.structure.article.end.html entity.name.tag.html",
+				"meta.tag.structure.footer.start.html entity.name.tag.html",
+				"meta.tag.structure.footer.end.html entity.name.tag.html"
+			],
+			"settings": {
+			  "foreground": "#D2503E",
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.div.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.div.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.div.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.div.end.html punctuation.definition.tag.end.html"
+			],
+			"settings": {
+			  "foreground": "#779757", 
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.div.start.html entity.name.tag.html",
+				"meta.tag.structure.div.end.html entity.name.tag.html"
+			],
+			"settings": {
+			  "foreground": "#A1C181", 
+			  "fontStyle": "bold"
+			}
+		}, 
+
+		{
+			"scope": [
+				"meta.tag.metadata.style.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.style.start.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.style.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.style.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.input.void.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.input.void.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.textarea.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.textarea.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.textarea.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.textarea.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.select.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.select.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.select.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.select.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.option.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.option.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.option.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.option.end.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.script.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.script.start.html punctuation.definition.tag.end.html",
+				"meta.tag.metadata.script.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.metadata.script.end.html punctuation.definition.tag.end.html",
+			],
+			"settings": {
+			  "foreground": "#8DD3CE", 
+			  "fontStyle": "bold"
+			}
+		}, 
+		{
+			"scope": [
+				"meta.tag.metadata.style.start.html entity.name.tag.html",
+				"meta.tag.metadata.style.end.html entity.name.tag.html",
+				"meta.tag.structure.form.start.html entity.name.tag.html",
+				"meta.tag.structure.form.end.html entity.name.tag.html",
+				"meta.tag.structure.input.void.html entity.name.tag.html",
+				"meta.tag.structure.textarea.start.html entity.name.tag.html",
+				"meta.tag.structure.textarea.end.html entity.name.tag.html",
+				"meta.tag.structure.select.start.html entity.name.tag.html",
+				"meta.tag.structure.select.end.html entity.name.tag.html",
+				"meta.tag.structure.option.start.html entity.name.tag.html",
+				"meta.tag.structure.option.end.html entity.name.tag.html",
+				"meta.tag.metadata.script.start.html entity.name.tag.html",
+				"meta.tag.metadata.script.end.html entity.name.tag.html"
+
+			],
+			"settings": {
+			  "foreground": "#61C2BB", 
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+
+			],
+			"settings": {
+			  "foreground": "#EBC878", 
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.button.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.button.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.button.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.button.end.html punctuation.definition.tag.end.html",
+			],
+			"settings": {
+			  "foreground": "#9385D9", 
+			  "fontStyle": "bold"
+			}
+		},
+
+		{
+			"scope": [
+				"meta.tag.structure.button.start.html entity.name.tag.html",
+				"meta.tag.structure.button.end.html entity.name.tag.html",
+			],
+			"settings": {
+			  "foreground": "#7160C4", 
+			  "fontStyle": "bold"
+			}
+		}    
 	  ]
   }
