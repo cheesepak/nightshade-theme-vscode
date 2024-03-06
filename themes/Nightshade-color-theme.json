@@ -437,10 +437,11 @@
 			"variable.function.constructor",
 			"entity.name.tag.other.html",
 			"entity.name.tag.block.any.html",
-			"source.sass keyword.control"
+			"source.sass keyword.control",
+			"support.constant.property-value.css"
 		  ],
 		  "settings": {
-			"foreground": "#E89848"
+			"foreground": "#A1C181"
 		  }
 		},
 		{
@@ -449,7 +450,7 @@
 			"punctuation.definition.string.end.html"
 		  ],
 		  "settings": {
-			"foreground": "#FF8473"
+			"foreground": "#9385D9"
 		  }
 		},
 		{
@@ -589,23 +590,27 @@
 			"source.scss keyword.control"
 		  ],
 		  "settings": {
-			"foreground": "#D2503E"
+			"foreground": "#9385D9"
 		  }
 		},
 		{
 			"scope": [
-			  "entity.other.attribute-name.id"
+			  "entity.other.attribute-name.id",
+			  "meta.attribute.id.html string.quoted.single.html",
+			  "meta.attribute.id.html string.quoted.double.html"
 			],
 			"settings": {
-			  "foreground": "#E89848"
+			  "foreground": "#FFBE7D"
 			}
 		},
 		{
 			"scope": [
-			  "entity.other.attribute-name.class"
+			  "entity.other.attribute-name.class",
+			  "meta.attribute.class.html string.quoted.single.html",
+			  "meta.attribute.class.html string.quoted.double.html"
 			],
 			"settings": {
-			  "foreground": "#A1C181"
+			  "foreground": "#FF8473"
 			}
 		},
 		{
@@ -831,36 +836,6 @@
 
 
 
-		{
-			"scope": "entity.other.jinja.delimiter.tag",
-			"settings": {
-				"foreground": "#D2503E"
-			}
-		}, 
-		{
-			"scope": "keyword.control.jinja",
-			"settings": {
-				"foreground": "#D2503E"
-			}
-		}, 
-		{
-			"scope": "variable.other.jinja.block",
-			"settings": {
-				"foreground": "#E89848"
-			}
-		},
-		{
-			"scope": "entity.other.jinja.delimiter.variable",
-			"settings": {
-				"foreground": "#61C2BB"
-			}
-		},
-		{
-			"scope": "entity.name.type.class.cs",
-			"settings": {
-				"foreground": "#61C2BB"
-			}
-		},
 
 
 
@@ -874,14 +849,9 @@
 				"meta.tag.structure.html.start.html punctuation.definition.tag.end.html",
 				"meta.tag.structure.html.end.html punctuation.definition.tag.begin.html",
 				"meta.tag.structure.html.end.html punctuation.definition.tag.end.html",
-				"meta.tag.structure.form.start.html punctuation.definition.tag.begin.html",
-				"meta.tag.structure.form.start.html punctuation.definition.tag.end.html",
-				"meta.tag.structure.form.end.html punctuation.definition.tag.begin.html",
-				"meta.tag.structure.form.end.html punctuation.definition.tag.end.html",
 			],
 			"settings": {
 			  "foreground": "#9385D9",
-			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -891,8 +861,7 @@
 				"meta.tag.structure.html.end.html entity.name.tag.html",
 			],
 			"settings": {
-			  "foreground": "#6E4CCC",
-			  "fontStyle": "bold"
+			  "foreground": "#6E4CCC"
 			}
 		}, 
 		{	
@@ -908,7 +877,6 @@
 			],
 			"settings": {
 			  "foreground": "#FF8473", 
-			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -954,7 +922,6 @@
 			],
 			"settings": {
 			  "foreground": "#FF8473",
-			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -974,7 +941,6 @@
 			],
 			"settings": {
 			  "foreground": "#D2503E",
-			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -985,8 +951,7 @@
 				"meta.tag.structure.div.end.html punctuation.definition.tag.end.html"
 			],
 			"settings": {
-			  "foreground": "#779757", 
-			  "fontStyle": "bold"
+			  "foreground": "#F0A961", 
 			}
 		},
 		{
@@ -995,8 +960,7 @@
 				"meta.tag.structure.div.end.html entity.name.tag.html"
 			],
 			"settings": {
-			  "foreground": "#A1C181", 
-			  "fontStyle": "bold"
+			  "foreground": "#E89848", 
 			}
 		}, 
 
@@ -1006,10 +970,6 @@
 				"meta.tag.metadata.style.start.html punctuation.definition.tag.end.html",
 				"meta.tag.metadata.style.end.html punctuation.definition.tag.begin.html",
 				"meta.tag.metadata.style.end.html punctuation.definition.tag.end.html",
-				"meta.tag.structure.form.start.html punctuation.definition.tag.begin.html",
-				"meta.tag.structure.form.start.html punctuation.definition.tag.end.html",
-				"meta.tag.structure.form.end.html punctuation.definition.tag.begin.html",
-				"meta.tag.structure.form.end.html punctuation.definition.tag.end.html",
 				"meta.tag.structure.input.void.html punctuation.definition.tag.begin.html",
 				"meta.tag.structure.input.void.html punctuation.definition.tag.end.html",
 				"meta.tag.structure.textarea.start.html punctuation.definition.tag.begin.html",
@@ -1031,15 +991,12 @@
 			],
 			"settings": {
 			  "foreground": "#8DD3CE", 
-			  "fontStyle": "bold"
 			}
 		}, 
 		{
 			"scope": [
 				"meta.tag.metadata.style.start.html entity.name.tag.html",
 				"meta.tag.metadata.style.end.html entity.name.tag.html",
-				"meta.tag.structure.form.start.html entity.name.tag.html",
-				"meta.tag.structure.form.end.html entity.name.tag.html",
 				"meta.tag.structure.input.void.html entity.name.tag.html",
 				"meta.tag.structure.textarea.start.html entity.name.tag.html",
 				"meta.tag.structure.textarea.end.html entity.name.tag.html",
@@ -1053,16 +1010,6 @@
 			],
 			"settings": {
 			  "foreground": "#61C2BB", 
-			  "fontStyle": "bold"
-			}
-		},
-		{
-			"scope": [
-
-			],
-			"settings": {
-			  "foreground": "#EBC878", 
-			  "fontStyle": "bold"
 			}
 		},
 		{
@@ -1073,20 +1020,215 @@
 				"meta.tag.structure.button.end.html punctuation.definition.tag.end.html",
 			],
 			"settings": {
-			  "foreground": "#9385D9", 
-			  "fontStyle": "bold"
+			  "foreground": "#8DD3CE"
 			}
 		},
-
 		{
 			"scope": [
 				"meta.tag.structure.button.start.html entity.name.tag.html",
 				"meta.tag.structure.button.end.html entity.name.tag.html",
 			],
 			"settings": {
+			  "foreground": "#61C2BB"
+			}
+		},
+		{
+			"scope": [
+				"meta.tag.structure.ul.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.ul.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.ul.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.ul.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.ol.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.ol.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.ol.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.ol.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.table.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.table.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.table.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.table.end.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.start.html punctuation.definition.tag.end.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.begin.html",
+				"meta.tag.structure.form.end.html punctuation.definition.tag.end.html",
+			],
+			"settings": {
+			  "foreground": "#BD6E99", 
+			  "fontStyle": "bold"
+			}
+		},
+
+		{
+			"scope": [
+				"meta.tag.structure.ul.start.html entity.name.tag.html",
+				"meta.tag.structure.ul.end.html entity.name.tag.html",
+				"meta.tag.structure.ol.start.html entity.name.tag.html",
+				"meta.tag.structure.ol.end.html entity.name.tag.html",
+				"meta.tag.structure.table.start.html entity.name.tag.html",
+				"meta.tag.structure.table.end.html entity.name.tag.html",
+				"meta.tag.structure.form.start.html entity.name.tag.html",
+				"meta.tag.structure.form.end.html entity.name.tag.html",
+			],
+			"settings": {
+			  "foreground": "#9A4573", 
+			  "fontStyle": "bold"
+			}
+		},
+		{
+			"scope": [
+				"meta.attribute.href.html string.quoted.double.html",
+				"meta.attribute.href.html string.quoted.double.html punctuation.definition.string.begin.html",
+				"meta.attribute.href.html string.quoted.double.html punctuation.definition.string.end.html"
+			],
+			"settings": {
+			  "foreground": "#78AD92",
+			}
+		},
+		{
+			"scope": [
+				"meta.attribute.action.html string.quoted.double.html"
+			],
+			"settings": {
+			  "foreground": "#D2503E",
+			}
+		},
+		
+
+
+
+
+
+
+
+		{
+			"scope": "entity.other.jinja.delimiter.tag",
+			"settings": {
+				"foreground": "#D2503E"
+			}
+		}, 
+		{
+			"scope": "keyword.control.jinja",
+			"settings": {
+				"foreground": "#D2503E"
+			}
+		}, 
+		{
+			"scope": "variable.other.jinja.block",
+			"settings": {
+				"foreground": "#E89848"
+			}
+		},
+		{
+			"scope": "entity.other.jinja.delimiter.variable",
+			"settings": {
+				"foreground": "#61C2BB"
+			}
+		},
+		{
+			"scope": "entity.name.type.class.cs",
+			"settings": {
+				"foreground": "#61C2BB"
+			}
+		},
+
+
+
+
+
+
+
+		{
+			"scope": [
+				"source.js"
+			],
+			"settings": {
+			  "foreground": "#A1C181", 
+			}
+		},
+		{
+			"scope": [
+				"storage.type.function.js",
+				"storage.type.js"
+			],
+			"settings": {
+			  "foreground": "#6E4CCC", 
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.conditional.js",
+				"keyword.operator.relational.js",
+				"keyword.operator.assignment.js"
+			],
+			"settings": {
+			  "foreground": "#D2503E" ,
+			}
+		},
+
+
+
+
+
+
+
+
+
+
+		{
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+			  "foreground": "#ADE2C7", 
+			}
+		},
+		{
+			"scope": [
+				"keyword.control.import.python",
+				"storage.type.class.python",
+				"storage.type.function.python",
+				"storage.modifier.declaration.python"
+			],
+			"settings": {
 			  "foreground": "#7160C4", 
 			  "fontStyle": "bold"
 			}
-		}    
+		},
+		{
+			"scope": [
+				"meta.indexed-name.python",
+				"meta.attribute.python",
+			],
+			"settings": {
+			  "foreground": "#A1C181", 
+			}
+		},
+		{
+			"scope": [
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+			  "foreground": "#E89848", 
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.decorator.python",
+				"keyword.control.flow.python",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.assignment.python"
+			],
+			"settings": {
+			  "foreground": "#D2503E", 
+			  "fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.single.python"
+			],
+			"settings": {
+			  "foreground": "#5E9C85", 
+			}
+		},
 	  ]
   }
