@@ -1249,6 +1249,7 @@
 			"scope": [
 
 				"string.quoted.single.python",
+				"string.quoted.multi.python"
 			],
 			"settings": {
 			  "foreground": "#5E9C85", 
