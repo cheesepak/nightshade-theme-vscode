@@ -4,6 +4,9 @@ All notable changes to the "nightshade" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### 0.3.8
+- Changed color for multi-line quote in Python to match single-line quotes
+
 ### 0.3.7
 - Updated VS Code theming for better visibility (purple is now the secondary color instead of red)
 - Updated theming for HTML, CSS, and Python
