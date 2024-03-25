@@ -286,6 +286,7 @@
 			"scope": [
 				"meta.indexed-name.python",
 				"meta.bracket.square.access variable.other.object",
+				"variable.other.global.cpp"
 			],
 			"settings": {
 			  "foreground": "#A1C181", 
