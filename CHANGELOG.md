@@ -15,14 +15,14 @@ All notable changes to the "nightshade vs theme" extension will be documented in
 - Changed colors for HTML, CSS, and Python
 - Added support for Markdown
 
-#### Some update logs have been lost in the ether
+#### *Some update logs have been lost in the ether*
 
 ## 0.3.0
 
 - Added preliminary support for HTML, CSS, JS, Python, and more
 - Changed logo and example image
 
-#### Some update logs have been lost in the ether
+#### *Some update logs have been lost in the ether*
 
 ### 0.1.2
 
