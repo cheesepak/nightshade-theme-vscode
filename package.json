@@ -30,9 +30,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nightshade",
+        "label": "Nightshade (Dark Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Nightshade-color-theme.json"
+      },
+      {
+        "label": "Planned: Nightshade (High Contrast)",
+        "uiTheme": "hc-black",
+        "path": ""
+      },
+      {
+        "label": "Planned: Lightshade (Light Theme)",
+        "uiTheme": "vs",
+        "path": ""
+      },
+      {
+        "label": "Planned: Lightshade (High Contrast)",
+        "uiTheme": "hc-light",
+        "path": ""
       }
     ]
   }
