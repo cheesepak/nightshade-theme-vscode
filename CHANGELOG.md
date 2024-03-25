@@ -1,8 +1,10 @@
 # Change Log
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
+### 0.4.1
+- Changed some text
 
-## 4.0.0
+## 0.4.0
 - Added support for Javascript, C, C++, C#, and Rust
 - Changed generic token colors to better support all languages
 - Changed minimap and CodeLens colors for consistency
