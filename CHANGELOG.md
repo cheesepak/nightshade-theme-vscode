@@ -1,8 +1,14 @@
 # Change Log
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
+
+### 0.4.2
+- Changed color for C++
+- Changed text in README.md listing language support
+- Changed text in package.json for future planned theme variations
+
 ### 0.4.1
-- Changed some text
+- Changed some text decorators for personal amusement
 
 ## 0.4.0
 - Added support for Javascript, C, C++, C#, and Rust
