@@ -2,7 +2,7 @@
 
 ![Header and Example](nightshade-header-example.jpg)
 
-### <center>Lose yourself in the code jungle with this green-forward dark theme for Visual Studio Code.</center>
+#### <center>Lose yourself in the code jungle with this green-forward dark theme for Visual Studio Code.</center>
 
 <br>
 
