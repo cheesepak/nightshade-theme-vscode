@@ -21,6 +21,7 @@
 		"diffEditor.insertedTextBackground": "#D2685915",
 		"diffEditor.removedTextBackground": "#9A457320",
 		"dropdown.background": "#0A0E0E",
+		"dropdown.foreground": "#ADE2C7",
 		"dropdown.border": "#D0EEDF10",
 		"editor.background": "#101616",
 		"editor.findMatchBackground": "#0A0E0E",
@@ -38,7 +39,7 @@
 		"editorError.foreground": "#9A457370",
 		"editorGroup.border": "#0A0E0E30",
 		"editorGroupHeader.tabsBackground": "#0A0E0E",
-		"editorGutter.addedBackground": "#D2685960",
+		"editorGutter.addedBackground": "#6E4CCC80",
 		"editorGutter.deletedBackground": "#9A457360",
 		"editorGutter.modifiedBackground": "#5E9C8560",
 		"editorHoverWidget.background": "#0A0E0E",
@@ -109,9 +110,9 @@
 		"menubar.selectionBorder": "#1F524A50",
 		"menubar.selectionForeground": "#ADE2C7",
 		"minimap.background": "#0A0E0E",
-		"minimapGutter.addedBackground": "#ADE2C7",
-		"minimapGutter.deletedBackground": "#6E4CCC",
-		"minimapGutter.modifiedBackground": "#D26859",
+		"minimapGutter.addedBackground": "#6E4CCC",
+		"minimapGutter.deletedBackground": "#D2503E",
+		"minimapGutter.modifiedBackground": "#5E9C85",
 		"minimapSlider.background": "#6E4CCC80",
 		"minimapSlider.hoverBackground": "#6E4CCCa0",
 		"minimapSlider.activeBackground": "#5E9C85b0",
@@ -895,6 +896,9 @@
 		{
 			"scope": [
 			  "heading.1.markdown entity.name.section.markdown",
+			  "heading.4.markdown entity.name.section.markdown",
+			  "markup.heading.setext.1.markdown"
+
 			],
 			"settings": {
 			  "foreground": "#9385D9"
@@ -903,6 +907,8 @@
 		{
 			"scope": [
 			  "heading.2.markdown entity.name.section.markdown",
+			  "heading.5.markdown entity.name.section.markdown",
+			  "markup.heading.setext.2.markdown",
 			  "string.other.link.description.markdown"
 			],
 			"settings": {
@@ -913,6 +919,7 @@
 			"scope": [
 				"string.other.link.title.markdown",
 				"heading.3.markdown entity.name.section.markdown",
+				"heading.6.markdown entity.name.section.markdown",
 			  ],
 			  "settings": {
 				"foreground": "#FFBE7D"
