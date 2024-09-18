@@ -2,6 +2,18 @@
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
 
+## 0.5.0
+- Added preliminary light theme
+- Added more exmaple images to README.md
+
+### 0.4.4
+- Changed color of gutter git highlighting (added) to purple
+- Changed text in README.md listing language support
+- Changed Github URL for Marketplace
+
+### 0.4.3
+- Added LUA / PICO8 support
+
 ### 0.4.2
 - Changed color for C++
 - Changed text in README.md listing language support
