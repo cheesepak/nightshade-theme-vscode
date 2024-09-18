@@ -4,7 +4,7 @@ All notable changes to the "nightshade vs theme" extension will be documented in
 
 ## 0.5.0
 - Added preliminary light theme
-- Added more exmaple images to README.md
+- Added more example images to README.md
 
 ### 0.4.4
 - Changed color of gutter git highlighting (added) to purple
