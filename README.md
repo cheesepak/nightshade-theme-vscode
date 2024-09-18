@@ -1,23 +1,28 @@
 # Nightshade VS Code Theme
 
-![Header and Example](nightshade-header-example.jpg)
+![Logo](nightshade-splash-logo.png)
+![Theme Example](nightshade-theme.png)
 
-#### <center>Lose yourself in the code jungle with this green-forward dark theme for Visual Studio Code.</center>
+## A green-forward dark theme for Visual Studio Code
+
+![HTML/CSS Example](html-css.png)
+![Python/LUA Example](py-lua.png)
 
 <br>
 
-## Programming Language Support
+## Programming Language Syntax Highlighting Support
 - Generic support for all languages
-- HTML
-- CSS
+- HTML / CSS / JS
 - Python
-- C
-- C++
+- C / C++
+- LUA / PICO-8
 
 ### Current Planned Support
-- Javascript
-- C#
+- React 
+- GO
 - Rust
-- LUA / PICO-8
+- C#
+- Java
+- GDScript
 
 If you want support for a specific language or run into a problem, submit a [feature request or ticket](https://github.com/cheesepak/nightshade-theme-vscode/issues) on the [Nightshade Github](https://github.com/cheesepak/nightshade-theme-vscode) page.
