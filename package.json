@@ -2,12 +2,12 @@
   "name": "nightshade",
   "displayName": "Nightshade",
   "description": "Green-forward dark theme for Visual Studio Code",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "publisher": "SirCheese",
   "icon": "profile-150px.jpg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SirCheese616/nightshade-theme-vscode"
+    "url": "https://github.com/cheesepak/nightshade-theme-vscode"
   },
   "engines": {
     "vscode": "^1.85.0"
@@ -35,19 +35,9 @@
         "path": "./themes/Nightshade-color-theme.json"
       },
       {
-        "label": "Planned: Nightshade (High Contrast)",
-        "uiTheme": "hc-black",
-        "path": ""
-      },
-      {
-        "label": "Planned: Lightshade (Light Theme)",
+        "label": "Lightshade (Light Theme)",
         "uiTheme": "vs",
-        "path": ""
-      },
-      {
-        "label": "Planned: Lightshade (High Contrast)",
-        "uiTheme": "hc-light",
-        "path": ""
+        "path": "./themes/Nightshade-color-theme-lightshade.json"
       }
     ]
   }
