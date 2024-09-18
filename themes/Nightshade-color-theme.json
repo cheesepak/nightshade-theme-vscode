@@ -70,10 +70,11 @@
 		"extensionButton.prominentHoverBackground": "#9A4573",
 		"editorCodeLens.foreground": "#1F524A",
 		"focusBorder": "#D0EEDF00",
-		"gitDecoration.conflictingResourceForeground": "#E89848",
+		"gitDecoration.addedResourceForeground": "#6E4CCC",
+		"gitDecoration.modifiedResourceForeground": "#346B5E",
 		"gitDecoration.deletedResourceForeground": "#9A4573",
 		"gitDecoration.ignoredResourceForeground": "#1F524A",
-		"gitDecoration.modifiedResourceForeground": "#346B5E",
+		"gitDecoration.conflictingResourceForeground": "#E89848",
 		"gitDecoration.untrackedResourceForeground": "#5E9C85",
 		"input.background": "#082422",
 		"input.border": "#D0EEDF10",
@@ -1257,7 +1258,56 @@
 			  "foreground": "#D2503E",
 			}
 		},
-		
+
+		{
+			"scope": [
+				"meta.function.lua",
+				"meta.embedded.block.pico-8-lua",
+				"support.function.any-method.lua",	
+			],
+			"settings": {
+			  "foreground": "#9E78A7",
+			}
+		},
+		{
+			"scope": [
+				"entity.name.function.lua",
+
+			],
+			"settings": {
+			  "foreground": "#61C2BB",
+			}
+		},
+		{
+			"scope": [
+				"meta.function.lua keyword.control.lua",
+				"keyword.control.lua",
+				"support.function.lua",
+			],
+			"settings": {
+			  "foreground": "#D2503E",
+			  
+			}
+		},
+		{
+			"scope": [
+
+				"constant.numeric.integer.lua",
+			],
+			"settings": {
+			  "foreground": "#F0A961",	
+			  
+			}
+		},
+		{
+			"scope": [
+				"support.function.lua",	
+			],
+			"settings": {
+			  "foreground": "#A1C181",	
+			  
+			}
+		},
 	  ]
   } 
   

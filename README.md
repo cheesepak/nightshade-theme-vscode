@@ -20,6 +20,4 @@
 - Rust
 - LUA / PICO-8
 
-If you enjoy this theme and want support for a specific language, submit a [feature request](https://github.com/SirCheese616/nightshade-theme-vscode/issues) on the [Nightshade Github](https://github.com/SirCheese616/nightshade-theme-vscode) page.
-
-> Originally created to match my desk space and is a work in progress. Thanks for understanding.
+If you want support for a specific language or run into a problem, submit a [feature request or ticket](https://github.com/cheesepak/nightshade-theme-vscode/issues) on the [Nightshade Github](https://github.com/cheesepak/nightshade-theme-vscode) page.
