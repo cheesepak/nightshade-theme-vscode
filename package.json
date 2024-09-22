@@ -2,7 +2,7 @@
   "name": "nightshade",
   "displayName": "Nightshade",
   "description": "Green-forward dark theme for Visual Studio Code",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "publisher": "SirCheese",
   "icon": "profile-150px.jpg",
   "repository": {
@@ -16,8 +16,9 @@
     "theme",
     "dark theme",
     "green",
+    "blue",
     "green theme",
-    "dark green theme",
+    "blue theme",
     "cottagecore",
     "cottage core",
     "jungle",
@@ -30,14 +31,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Nightshade (Dark Theme)",
+        "label": "Nightshade Belladonna (Dark Theme)",
         "uiTheme": "vs-dark",
         "path": "./themes/Nightshade-color-theme.json"
       },
       {
-        "label": "Lightshade (Light Theme)",
+        "label": "Nightshade Wolfsbane (Dark Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nightshade-color-theme-wolfsbane.json"
+      },
+      {
+        "label": "Nightshade Datura (Light Theme)",
         "uiTheme": "vs",
-        "path": "./themes/Nightshade-color-theme-lightshade.json"
+        "path": "./themes/Nightshade-color-theme-datura.json"
       }
     ]
   }
