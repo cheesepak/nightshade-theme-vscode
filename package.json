@@ -13,17 +13,20 @@
     "vscode": "^1.85.0"
   },
   "keywords": [
-    "theme",
     "dark theme",
-    "green",
-    "blue",
     "green theme",
     "blue theme",
-    "cottagecore",
-    "cottage core",
+    "vibrant",
+    "cyberpunk",
+    "synthwave",
     "jungle",
+    "cottagecore",
     "nightshade",
-    "night shade"
+    "night shade",
+    "belladonna",
+    "datura",
+    "wolfsbane",
+    "syntax highlighting"
   ],
   "categories": [
     "Themes"
@@ -36,14 +39,14 @@
         "path": "./themes/Nightshade-color-theme.json"
       },
       {
-        "label": "Nightshade Wolfsbane (Dark Theme)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Nightshade-color-theme-wolfsbane.json"
-      },
-      {
         "label": "Nightshade Datura (Light Theme)",
         "uiTheme": "vs",
         "path": "./themes/Nightshade-color-theme-datura.json"
+      },
+      {
+        "label": "Nightshade Wolfsbane (Dark Theme)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nightshade-color-theme-wolfsbane.json"
       }
     ]
   }
