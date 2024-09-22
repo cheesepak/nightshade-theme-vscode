@@ -1,7 +1,9 @@
 # Nightshade VS Code Theme
 
 ![Logo](nightshade-splash-logo.png)
-![Theme Example](nightshade-theme.jpg)
+![Belladonna Example](belladonna.jpg)
+![Datura Example](datura.jpg)
+![Wolfsbane Example](wolfsbane.jpg)
 
 Collection of themes for for Visual Studio Code
 
