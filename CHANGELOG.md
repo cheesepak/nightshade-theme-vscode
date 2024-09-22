@@ -2,6 +2,10 @@
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
 
+## 0.6.1
+- Changed transparency on all themes (minimap)
+- Changed colors in Wolfsbane dark theme for readability
+
 ## 0.6.0
 - Added Wolfsbane Dark theme
 - Changed colors in Datura light theme
