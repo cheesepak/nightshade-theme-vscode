@@ -109,7 +109,7 @@
 		"menubar.selectionBackground": "#082422",
 		"menubar.selectionBorder": "#1F524A50",
 		"menubar.selectionForeground": "#ADE2C7",
-		"minimap.background": "#0A0E0E",
+		"minimap.background": "#0A0E0E70",
 		"minimapGutter.addedBackground": "#6E4CCC",
 		"minimapGutter.deletedBackground": "#D2503E",
 		"minimapGutter.modifiedBackground": "#5E9C85",
