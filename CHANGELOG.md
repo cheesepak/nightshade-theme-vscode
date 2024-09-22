@@ -2,8 +2,11 @@
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
 
+### 0.5.1
+- Changed most colors in Lightshade light theme for better readability
+
 ## 0.5.0
-- Added preliminary light theme
+- Added preliminary Lightshade light theme
 - Added more example images to README.md
 
 ### 0.4.4
