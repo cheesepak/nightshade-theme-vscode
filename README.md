@@ -1,12 +1,18 @@
 # Nightshade VS Code Theme
 
 ![Logo](nightshade-splash-logo.png)
-![Theme Example](nightshade-theme.png)
+![Theme Example](nightshade-theme.jpg)
 
-## A green-forward dark theme for Visual Studio Code
+Collection of themes for for Visual Studio Code
 
-![HTML/CSS Example](html-css.png)
-![Python/LUA Example](py-lua.png)
+## Belladonna
+Green-forward dark theme 
+
+## Datura
+Soft green light theme
+
+## Wolfsbane
+Midnight blue theme
 
 <br>
 
