@@ -2,59 +2,74 @@
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
 
+## 0.6.2
+
+- Changed color of links for readability and consistency between themes
+
 ## 0.6.1
+
 - Changed transparency on all themes (minimap)
 - Changed colors in Wolfsbane dark theme for readability
 
 ## 0.6.0
+
 - Added Wolfsbane Dark theme
 - Changed colors in Datura light theme
 - Changed description and images to go with the new themes
 
 ### 0.5.1
+
 - Changed colors in Datura light theme for better readability (still needs work)
 
 ## 0.5.0
+
 - Added preliminary Datura light theme
 - Added more example images to README.md
 
 ### 0.4.4
+
 - Changed color of gutter git highlighting (added) to purple
 - Changed text in README.md listing language support
 - Changed Github URL for Marketplace
 
 ### 0.4.3
+
 - Added LUA / PICO8 support
 
 ### 0.4.2
+
 - Changed color for C++
 - Changed text in README.md listing language support
 - Changed text in package.json for future planned theme variations
 
 ### 0.4.1
+
 - Changed some text decorators for personal amusement
 
 ## 0.4.0
+
 - Added support for Javascript, C, C++, C#, and Rust
 - Changed generic token colors to better support all languages
 - Changed minimap and CodeLens colors for consistency
 
 ### 0.3.8
+
 - Changed color for multi-line quote in Python to match single-line quotes
 
 ### 0.3.7
+
 - Changed VS Code application theme for better visibility (purple is now the secondary color instead of red)
 - Changed colors for HTML, CSS, and Python
 - Added support for Markdown
 
-#### *Some update logs have been lost in the ether*
+#### _Some update logs have been lost in the ether_
 
 ## 0.3.0
 
 - Added preliminary support for HTML, CSS, JS, Python, and more
 - Changed logo and example image
 
-#### *Some update logs have been lost in the ether*
+#### _Some update logs have been lost in the ether_
 
 ### 0.1.2
 
