@@ -2,23 +2,21 @@
 
 ![Logo](nightshade-splash-logo.png)
 ![Belladonna Example](belladonna.jpg)
-![Datura Example](datura.jpg)
 ![Wolfsbane Example](wolfsbane.jpg)
+![Datura Example](datura.jpg)
 
-Collection of themes for for Visual Studio Code
+Collection of three vibrant themes for Visual Studio Code
 
-## Belladonna
-Green-forward dark theme 
+## Themes
 
-## Datura
-Soft green light theme
-
-## Wolfsbane
-Midnight blue theme
+- **Belladonna**: Green-forward dark theme
+- **Wolfsbane**: Midnight blue dark theme
+- **Datura**: Green-forward light theme
 
 <br>
 
 ## Programming Language Syntax Highlighting Support
+
 - Generic support for all languages
 - HTML / CSS / JS
 - Python
@@ -26,7 +24,8 @@ Midnight blue theme
 - LUA / PICO-8
 
 ### Current Planned Support
-- React 
+
+- React
 - GO
 - Rust
 - C#
