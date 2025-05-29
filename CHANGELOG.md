@@ -2,31 +2,38 @@
 
 All notable changes to the "nightshade vs theme" extension will be documented in this file.
 
-## 0.6.2
+## 0.6.3
+
+- Changed .lua comment blocks to match other comment blocks
+- Changed color of highlighted items in dropdown menus in Wolfsbane dark theme
+- Fixed selected text highlight in search boxes in Wolfsbane dark theme
+- Fixed ignored files contrast in Wolfsbane dark theme
+
+### 0.6.2
 
 - Changed color of links for readability and consistency between themes
 
-## 0.6.1
+### 0.6.1
 
 - Changed transparency on all themes (minimap)
 - Changed colors in Wolfsbane dark theme for readability
 
-## 0.6.0
+### 0.6.0
 
-- Added Wolfsbane Dark theme
+- Added Wolfsbane dark theme
 - Changed colors in Datura light theme
 - Changed description and images to go with the new themes
 
-### 0.5.1
+## 0.5.1
 
 - Changed colors in Datura light theme for better readability (still needs work)
 
-## 0.5.0
+### 0.5.0
 
 - Added preliminary Datura light theme
 - Added more example images to README.md
 
-### 0.4.4
+## 0.4.4
 
 - Changed color of gutter git highlighting (added) to purple
 - Changed text in README.md listing language support
@@ -46,13 +53,13 @@ All notable changes to the "nightshade vs theme" extension will be documented in
 
 - Changed some text decorators for personal amusement
 
-## 0.4.0
+### 0.4.0
 
 - Added support for Javascript, C, C++, C#, and Rust
 - Changed generic token colors to better support all languages
 - Changed minimap and CodeLens colors for consistency
 
-### 0.3.8
+## 0.3.8
 
 - Changed color for multi-line quote in Python to match single-line quotes
 
@@ -64,14 +71,14 @@ All notable changes to the "nightshade vs theme" extension will be documented in
 
 #### _Some update logs have been lost in the ether_
 
-## 0.3.0
+### 0.3.0
 
 - Added preliminary support for HTML, CSS, JS, Python, and more
 - Changed logo and example image
 
 #### _Some update logs have been lost in the ether_
 
-### 0.1.2
+## 0.1.2
 
 - Changed the placeholder profile image for the Extensions Marketplace
 - Added a quick screengrabbed Python example for README.md
